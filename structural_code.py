@@ -6,7 +6,7 @@ import numpy as np
 import math
 from bokeh.plotting import figure, show
 
-st.set_page_config(page_title='Structural Calculator', layout = 'cenetered', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Structural Calculator', layout = 'centered', initial_sidebar_state = 'auto')
 
 node_coordinates = list()
 elements_Y = list()
