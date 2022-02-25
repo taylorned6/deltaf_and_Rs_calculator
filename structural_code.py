@@ -17,7 +17,7 @@ elements_map = list()
 
 st.sidebar.title("Instructions") #######Instruction to user in sidedar#############
 st.sidebar.subheader("Element Definition")
-st.sidebar.subheader("Coordinates are in meters.")
+st.sidebar.write("Coordinates are in meters.")
 st.sidebar.write("Mapping vectors define how each element fits into the global DoF system.")
 st.sidebar.write("Each digit should be seperated by commas.")
 
