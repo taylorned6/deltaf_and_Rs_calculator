@@ -17,6 +17,7 @@ elements_map = list()
 
 st.sidebar.title("Instructions") #######Instruction to user in sidedar#############
 st.sidebar.subheader("Element Definition")
+st.sidebar.subheader("Coordinates are in meters.")
 st.sidebar.write("Mapping vectors define how each element fits into the global DoF system.")
 st.sidebar.write("Each digit should be seperated by commas.")
 
@@ -24,9 +25,10 @@ st.sidebar.subheader("Forces")
 st.sidebar.write("All units are in Newtons")
 st.sidebar.write("Force inputs are defined in the global coordinate system. y is upwards positive, x is right positive, and z is counterclockwise positive.")
 st.sidebar.write("Enter zeros for any cells without inputs, do not leave blank.")
+st.sidebar.write("Do not use scientific notation.")
 
 st.sidebar.subheader("Support Vector")
-st.sidebar.write("The support vector defines which DoFs are fixed and which are free. Enter 1 for fixed DoFs, and 0 for free DoFs")
+st.sidebar.write("The support vector defines which DoFs are fixed and which are free. Enter 1 for fixed DoFs, and 0 for free DoFs.")
 st.sidebar.write("DoFs are in the order of x1,y1,z1,x2,y2,z2, etc...")
  
 st.title("Displacement and Reaction Force Calculator")
