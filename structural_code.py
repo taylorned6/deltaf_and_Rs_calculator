@@ -30,6 +30,9 @@ st.sidebar.write("Do not use scientific notation.")
 st.sidebar.subheader("Support Vector")
 st.sidebar.write("The support vector defines which DoFs are fixed and which are free. Enter 1 for fixed DoFs, and 0 for free DoFs.")
 st.sidebar.write("DoFs are in the order of x1,y1,z1,x2,y2,z2, etc...")
+
+st.sidebar.subheader("Supporting Code")
+st.sidebar.write("See supporting code on Github here: https://github.com/taylorned6/deltaf_and_Rs_calculator/blob/master/structural_code.py")
  
 st.title("Displacement and Reaction Force Calculator")
 
